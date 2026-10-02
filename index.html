@@ -1,0 +1,420 @@
+
+<html>
+<head>
+
+
+<title>INDEX- Huerto Escolar</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Comic Sans MS, Arial, sans-serif;
+    background:#f4f7f1;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    font-size:50px;
+    margin:0;
+}
+
+header p{
+    font-size:25px;
+    color:#d8f3dc;
+}
+
+nav{
+    background:#d8f3dc;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+    margin:0 12px;
+    font-size:19px;
+    color:#2e7d32;
+}
+
+nav a:hover{
+    color:#ff9800;
+}
+
+.contenedor{
+    width:95%;
+    margin:auto;
+}
+
+.bienvenida{
+    background:#eaf5e6;
+    border:2px solid #b7e4c7;
+    border-radius:15px;
+    margin:15px 0;
+    padding:20px;
+}
+
+.bloque{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:15px;
+    border-radius:15px;
+    overflow:hidden;
+    border:1px solid #ccc;
+}
+
+.info{
+    width:60%;
+    padding:15px;
+    background:white;
+}
+
+.datos{
+    width:35%;
+    padding:10px;
+}
+
+.datos table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.datos th,
+.datos td{
+    border:1px solid #999;
+    padding:8px;
+}
+
+.plantas .datos{background:#d8f3dc;}
+.cuidados .datos{background:#c1e1c1;}
+.beneficios .datos{background:#e6f4c7;}
+.herramientas .datos{background:#dcedc8;}
+.siembra .datos{background:#c8e6c9;}
+
+.imagenes{
+    text-align:center;
+    padding:10px;
+}
+
+.imagenes img{
+    width:90%;
+    max-width:400px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    border:3px solid #b7e4c7;
+    margin:10px;
+}
+
+h2{
+    margin-top:0;
+}
+
+footer{
+    background:#d8f3dc;
+    padding:20px;
+    margin-top:20px;
+}
+
+.footer-grid{
+    display:flex;
+    justify-content:space-between;
+}
+
+.copyright{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 ¡INDEX! 🌱</h1>
+    <p>Nuestro Huerto Escolar</p>
+    <h3>Unidad Educativa Juan de Salinas</h3>
+</header>
+
+<nav>
+    🌿 <a href="#inicio">Inicio</a>
+    <a href="#plantas">Plantas</a>
+    <a href="#cuidados">Cuidados</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#herramientas">Herramientas</a>
+    <a href="#siembra">Siembra</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="contenedor">
+
+<!-- INICIO -->
+
+<div class="bienvenida" id="inicio">
+    <h1>🌻 Bienvenidos a nuestro huerto escolar</h1>
+
+    <p>
+        El huerto escolar es un espacio donde los estudiantes
+        cultivan frutas, verduras y plantas aromáticas.
+        Nos permite aprender sobre la naturaleza, cuidar el
+        medio ambiente y trabajar en equipo.
+    </p>
+
+    <p>
+        Nuestro objetivo es promover una alimentación saludable,
+        la responsabilidad y el respeto por la naturaleza.
+    </p>
+
+    <div class="imagenes">
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b"
+        alt="Plantas de un huerto escolar">
+    </div>
+</div>
+
+<!-- PLANTAS -->
+
+<div class="bloque plantas" id="plantas">
+    <div class="info">
+        <h2 style="color:#2e7d32;">🌿 Plantas de nuestro huerto</h2>
+
+        <p>
+            En nuestro huerto podemos cultivar diferentes
+            tipos de plantas que nos proporcionan alimentos
+            saludables y ayudan a cuidar el ambiente.
+        </p>
+
+        <b>Plantas que podemos sembrar:</b>
+
+        <ul>
+            <li>Lechuga</li>
+            <li>Zanahoria</li>
+            <li>Tomate</li>
+            <li>Cilantro</li>
+            <li>Rábano</li>
+            <li>Espinaca</li>
+        </ul>
+
+        <p>
+            <b>Dato curioso:</b> Algunas plantas, como el cilantro,
+            también ayudan a dar sabor a nuestros alimentos.
+        </p>
+
+        <div class="imagenes">
+            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999"
+            alt="Verduras frescas del huerto">
+        </div>
+    </div>
+
+    <div class="datos">
+        <table>
+            <tr><th colspan="2">🌱 Datos de las plantas</th></tr>
+            <tr><td>Hortaliza</td><td>Lechuga</td></tr>
+            <tr><td>Raíz</td><td>Zanahoria</td></tr>
+            <tr><td>Fruto</td><td>Tomate</td></tr>
+            <tr><td>Aromática</td><td>Cilantro</td></tr>
+            <tr><td>Hoja verde</td><td>Espinaca</td></tr>
+        </table>
+    </div>
+</div>
+
+<!-- CUIDADOS -->
+
+<div class="bloque cuidados" id="cuidados">
+    <div class="info">
+        <h2 style="color:#388e3c;">💧 Cuidados del huerto</h2>
+
+        <p>
+            Para que las plantas crezcan sanas y fuertes,
+            debemos proporcionarles agua, luz solar y
+            nutrientes. También es importante mantener
+            limpio el espacio de cultivo.
+        </p>
+
+        <b>Actividades de cuidado:</b>
+
+        <ul>
+            <li>Regar las plantas con cuidado.</li>
+            <li>Retirar las malas hierbas.</li>
+            <li>Abonar la tierra con compost.</li>
+            <li>Revisar las hojas y los tallos.</li>
+            <li>Proteger las plantas de las plagas.</li>
+        </ul>
+
+        <div class="imagenes">
+            <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae"
+            alt="Cuidado de las plantas">
+        </div>
+    </div>
+
+    <div class="datos">
+        <table>
+            <tr><th colspan="2">📅 Calendario de cuidados</th></tr>
+            <tr><td>Riego</td><td>Según la necesidad</td></tr>
+            <tr><td>Limpieza</td><td>Cada semana</td></tr>
+            <tr><td>Abono</td><td>Cada 15 días</td></tr>
+            <tr><td>Revisión</td><td>Todos los días</td></tr>
+        </table>
+    </div>
+</div>
+
+<!-- BENEFICIOS -->
+
+<div class="bloque beneficios" id="beneficios">
+    <div class="info">
+        <h2 style="color:#558b2f;">🌎 Beneficios del huerto escolar</h2>
+
+        <p>
+            El huerto escolar es una herramienta educativa
+            que nos enseña a valorar los alimentos y a
+            proteger nuestro entorno.
+        </p>
+
+        <b>Principales beneficios:</b>
+
+        <ul>
+            <li>Fomenta una alimentación saludable.</li>
+            <li>Promueve el trabajo en equipo.</li>
+            <li>Desarrolla la responsabilidad.</li>
+            <li>Enseña a cuidar el medio ambiente.</li>
+            <li>Permite aprender de forma práctica.</li>
+        </ul>
+
+        <div class="imagenes">
+            <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735"
+            alt="Huerto escolar y naturaleza">
+        </div>
+    </div>
+
+    <div class="datos">
+        <table>
+            <tr><th colspan="2">🌻 Valores que aprendemos</th></tr>
+            <tr><td>Responsabilidad</td><td>Cuidar las plantas</td></tr>
+            <tr><td>Respeto</td><td>Proteger la naturaleza</td></tr>
+            <tr><td>Cooperación</td><td>Trabajar en equipo</td></tr>
+            <tr><td>Paciencia</td><td>Esperar la cosecha</td></tr>
+        </table>
+    </div>
+</div>
+
+<!-- HERRAMIENTAS -->
+
+<div class="bloque herramientas" id="herramientas">
+    <div class="info">
+        <h2 style="color:#558b2f;">🧤 Herramientas del huerto</h2>
+
+        <p>
+            Para trabajar en el huerto escolar utilizamos
+            herramientas que facilitan la preparación de
+            la tierra, la siembra y el cuidado de las plantas.
+        </p>
+
+        <ul>
+            <li>Regadera para regar las plantas.</li>
+            <li>Pala pequeña para remover la tierra.</li>
+            <li>Guantes para proteger las manos.</li>
+            <li>Rastrillo para limpiar el suelo.</li>
+            <li>Macetas para cultivar plantas.</li>
+        </ul>
+
+        <div class="imagenes">
+            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b"
+            alt="Herramientas y plantas de jardinería">
+        </div>
+    </div>
+
+    <div class="datos">
+        <table>
+            <tr><th colspan="2">🛠️ Herramientas y usos</th></tr>
+            <tr><td>Regadera</td><td>Riego</td></tr>
+            <tr><td>Pala</td><td>Preparar la tierra</td></tr>
+            <tr><td>Guantes</td><td>Protección</td></tr>
+            <tr><td>Rastrillo</td><td>Limpiar el suelo</td></tr>
+        </table>
+    </div>
+</div>
+
+<!-- SIEMBRA -->
+
+<div class="bloque siembra" id="siembra">
+    <div class="info">
+        <h2 style="color:#2e7d32;">🌱 ¿Cómo sembrar una planta?</h2>
+
+        <p>
+                        La siembra es el proceso mediante el cual
+            colocamos una semilla en la tierra para que pueda
+            germinar y convertirse en una nueva planta.
+        </p>
+
+        <b>Pasos para sembrar:</b>
+
+        <ol>
+            <li>Preparar y remover la tierra.</li>
+            <li>Hacer un pequeño agujero en el suelo.</li>
+            <li>Colocar la semilla en el agujero.</li>
+            <li>Cubrir la semilla con un poco de tierra.</li>
+            <li>Regar con cuidado y mantener la humedad.</li>
+            <li>Esperar a que la semilla germine.</li>
+        </ol>
+
+        <div class="imagenes">
+            <img src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e"
+            alt="Proceso de siembra de una planta">
+        </div>
+    </div>
+
+    <div class="datos">
+        <table>
+            <tr><th colspan="2">🌱 Etapas de crecimiento</th></tr>
+            <tr><td>1</td><td>Semilla</td></tr>
+            <tr><td>2</td><td>Germinación</td></tr>
+            <tr><td>3</td><td>Plántula</td></tr>
+            <tr><td>4</td><td>Crecimiento</td></tr>
+            <tr><td>5</td><td>Cosecha</td></tr>
+        </table>
+    </div>
+</div>
+
+</div>
+<!-- VÍNCULO A LA SEGUNDA PÁGINA -->
+    <div style="text-align:center; margin-top:20px;">
+        <a href="h2.html" style="
+            color:#2e7d32;
+            font-weight:bold;
+            text-decoration:none;
+            font-size:18px;
+
+<!-- CONTACTO -->
+
+<footer id="contacto">
+    <div class="footer-grid">
+        <div>
+            <h3>🌱 Contacto</h3>
+            <p>Unidad Educativa Juan de Salinas</p>
+            <p>097922346</p>
+        </div>
+
+        <div>
+            <h3>🌿 Nuestro compromiso</h3>
+            <p>
+                Cuidar la naturaleza, cultivar alimentos saludables
+                y aprender juntos.
+            </p>
+        </div>
+    </div>
+</footer>
+
+<div class="copyright">
+    © 2026 Sembrando Vida - Huerto Escolar 🌱
+</div>
+
+</body>
+</html>
